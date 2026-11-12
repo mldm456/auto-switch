@@ -1,0 +1,59 @@
+{
+  "keep_turns": 2,
+  "needs": [
+    {
+      "name": "github work",
+      "words": [
+        "github",
+        "pull request",
+        "gh pr"
+      ],
+      "plugins": [
+        "github@claude-plugins-official"
+      ]
+    },
+    {
+      "name": "email",
+      "words": [
+        "email",
+        "inbox",
+        "gmail",
+        "reply to"
+      ],
+      "connectors": [
+        "Gmail"
+      ]
+    },
+    {
+      "name": "calendar",
+      "words": [
+        "calendar",
+        "meeting",
+        "schedule a"
+      ],
+      "connectors": [
+        "Google Calendar"
+      ]
+    },
+    {
+      "name": "pdf",
+      "words": [
+        "pdf"
+      ],
+      "skills": [
+        "pdf"
+      ]
+    },
+    {
+      "name": "spreadsheet",
+      "words": [
+        "spreadsheet",
+        "xlsx",
+        "csv"
+      ],
+      "skills": [
+        "xlsx"
+      ]
+    }
+  ]
+}

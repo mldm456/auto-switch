@@ -1,0 +1,5 @@
+*.bak*
+RECEIPT.md
+__pycache__/
+*.pyc
+.claude/
