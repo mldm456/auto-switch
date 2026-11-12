@@ -39,7 +39,7 @@ Checked on Claude Code 2.1 in the macOS desktop app. The CLI follows the same se
 ## Install
 
 ```bash
-git clone <this repo> auto-switch
+git clone https://github.com/mldm456/auto-switch.git
 cd your-project
 python3 /path/to/auto-switch/install.py
 ```
